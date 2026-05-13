@@ -38,6 +38,6 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
             image: aliamomen/devops
-            registry: gcr.io
+            registry: docker.io
             username: ${{ secrets.DOCKER_USERNAME }}
             password: ${{ secrets.DOCKER_PASSWORD }}
